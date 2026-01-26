@@ -15,8 +15,8 @@ Many students have good ideas but no single place to show their skills, manage g
 RDI Platform solves this by bringing portfolios, projects, learning materials, and collaboration into one system.
 
 # Target users: #
-IIT students
-Student project teams
+- IIT students
+- Student project teams
 
 # Features #
 - Create a personal portfolio website based on academic marking needs
@@ -57,10 +57,12 @@ Examples will be added later.
 
 
 ## Project Structure ##
+
 rdi-platform/
 ├── frontend/   # React application
 ├── backend/    # Node.js and Express server
 ├── README.md
+
 
 ## Architecture Overview ##
 The frontend will communicate with the backend using REST APIs.
