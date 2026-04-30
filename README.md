@@ -110,8 +110,8 @@ Completed training related to high-performance computing and advanced computatio
 
 Feel free to connect with me:
 
-- LinkedIn: *(add your link here)*
-- Email: *(add your email here)*
+- LinkedIn: [*(add your link here)*](https://www.linkedin.com/in/parth-mangukiya-1999-b84710209/)
+- Email:Parthmangukiya304@gmail.com
 
 ---
 
