@@ -1,0 +1,286 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+}
+
+.student-shell {
+  min-height: 100vh;
+  background: #f4f6f8;
+}
+
+.student-topbar {
+  background: #ffffff;
+  border-bottom: 1px solid #d6dbe1;
+  height: 56px;
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.student-topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.student-brand {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.student-main-nav {
+  display: flex;
+  gap: 24px;
+  font-size: 14px;
+}
+
+.student-main-nav span,
+.student-profile {
+  color: #111827;
+}
+
+.student-tabs {
+  background: #e9edf3;
+  border-bottom: 1px solid #d6dbe1;
+  padding: 0 14px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  min-height: 46px;
+}
+
+.student-tab {
+  text-decoration: none;
+  color: #4b5563;
+  padding: 12px 10px;
+  border-bottom: 3px solid transparent;
+}
+
+.student-tab.active {
+  color: #111827;
+  font-weight: 700;
+  border-bottom-color: #2563eb;
+}
+
+.student-content {
+  padding: 28px 34px;
+}
+
+.page-card {
+  background: #ffffff;
+  border: 1px solid #d9dee5;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+}
+
+.page-title {
+  margin: 0 0 8px 0;
+  font-size: 26px;
+}
+
+.page-subtitle {
+  margin: 0;
+  color: #4b5563;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.stat-card {
+  background: #ffffff;
+  border: 1px solid #d9dee5;
+  padding: 18px;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.section-card {
+  background: #ffffff;
+  border: 1px solid #d9dee5;
+  padding: 18px;
+  margin-bottom: 24px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.btn {
+  padding: 8px 14px;
+  border: 1px solid #cfd6df;
+  background: #ffffff;
+  color: #111827;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+.btn + .btn {
+  margin-left: 8px;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #cfd6df;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th {
+  text-align: left;
+  border-bottom: 1px solid #d9dee5;
+  padding: 10px 8px;
+  font-weight: 700;
+  background: #fafbfc;
+}
+
+.data-table td {
+  padding: 12px 8px;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 24px;
+}
+
+.create-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+.filter-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.filter-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.review-item {
+  border-bottom: 1px solid #eef2f7;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+}
+
+.review-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.opportunity-list {
+  display: grid;
+  gap: 18px;
+}
+
+.opportunity-card {
+  background: #ffffff;
+  border: 1px solid #d9dee5;
+  padding: 20px;
+}
+
+.opportunity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.muted {
+  color: #4b5563;
+}
+
+.small-muted {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.member-box {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 18px;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 1100px) {
+  .stats-grid,
+  .two-col,
+  .create-grid,
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .student-main-nav {
+    gap: 14px;
+    font-size: 13px;
+  }
+
+  .student-content {
+    padding: 20px;
+  }
+
+  .filter-bar {
+    flex-direction: column;
+  }
+}
