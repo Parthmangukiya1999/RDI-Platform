@@ -56,27 +56,7 @@ Develop a platform for managing research and development ideas.
 
 ---
 
-### 3. IoT Data Collection Project
-
-**Objective:**  
-Collect temperature and humidity data using a microcontroller and visualize it.
-
-**Technologies Used:**
-- Raspberry Pi Pico
-- Python
-- Node.js API
-- Azure SQL Database
-- React Dashboard
-
-**Features:**
-- Real-time data collection
-- API-based data transfer
-- Cloud storage
-- Data visualization using charts
-
----
-
-###  4. Supercomputer Certificate
+###  3. Supercomputer Certificate
 
 Completed training related to high-performance computing and advanced computational systems.
 
